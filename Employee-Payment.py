@@ -1,4 +1,4 @@
-# Employee Payment Abstraction Example
+
 
 from abc import ABC, abstractmethod
 
@@ -32,5 +32,4 @@ if __name__ == "__main__":
     print(f"{hourly.name} - Hourly Employee Pay: ${hourly.calculate_pay()}")
     print(f"{salaried.name} - Salaried Employee Pay: ${salaried.calculate_pay()}")
     
-    # Uncomment to test: Cannot instantiate abstract class
-    # employee = Employee()  # This will raise TypeError
+

@@ -1,4 +1,3 @@
-# Shape Area Abstraction Example
 
 from abc import ABC, abstractmethod
 import math
@@ -30,5 +29,4 @@ if __name__ == "__main__":
     print(f"Circle area: {circle.area():.2f}")
     print(f"Rectangle area: {rectangle.area()}")
     
-    # Uncomment to test: Cannot instantiate abstract class
-    # shape = Shape()  # This will raise TypeError
+
